@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0b0f">
+  <meta name="description" content="Melodia: descubra artistas novos, crie playlists com a sua cara e ouça cada detalhe.">
+  <title>Melodia — Sua música, sua forma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['DM Sans','sans-serif'],display:['Space Grotesk','sans-serif']},colors:{ink:'#0b0b0f',acid:'#c9fa55',violet:'#a78bfa'}}}}</script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav-wrap" aria-label="Navegação principal">
+      <a class="brand" href="#top" aria-label="Melodia, início"><span class="brand-mark"><i data-lucide="audio-lines"></i></span>melodia<span class="brand-dot">.</span></a>
+      <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false"><i data-lucide="menu"></i></button>
+      <div class="nav-links"><a href="#sobre">Por que Melodia</a><a href="#recursos">Recursos</a><a href="#vozes">Comunidade</a></div>
+      <a class="nav-cta" href="#ouvir">Comece a ouvir <i data-lucide="arrow-up-right"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="ouvir">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse-dot"></span> O som de estar no seu mundo</div>
+        <h1>Melodia:<br><span>Sua música,</span><br>sua forma.</h1>
+        <p class="hero-lede">Dê play no que você ama. Encontre o que ainda nem sabia que procurava.</p>
+        <div class="hero-actions"><a class="button button-lime" href="#recursos">Ouvir agora <i data-lucide="arrow-right"></i></a><a class="text-link" href="#sobre">Conheça o Melodia <i data-lucide="arrow-down-right"></i></a></div>
+        <div class="listener-proof"><div class="avatar-stack"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=80&q=80" alt=""><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=80&q=80" alt=""><img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=80&q=80" alt=""></div><span><strong>Gente de todo tipo.</strong><br>Um som só seu.</span></div>
+      </div>
+      <div class="hero-art" aria-label="Prévia visual do aplicativo Melodia">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="visual-note note-a">♪</div><div class="visual-note note-b">♫</div>
+        <div class="album-art"><img src="https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=900&q=85" alt="Céu noturno estrelado em tons de roxo"><div class="album-shade"></div><div class="album-caption"><span>PLAYLIST DO DIA</span><strong>Depois da chuva</strong><small>Uma descoberta para hoje</small></div><span class="album-index">01 — 12</span></div>
+        <div class="floating-player"><button class="play-toggle" aria-label="Reproduzir prévia"><i data-lucide="play"></i></button><div class="track-meta"><strong>Slow Motion</strong><span>Lua Nova · Descoberta</span></div><div class="waveform" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><span class="track-time">0:24</span></div>
+        <div class="sound-tag"><i data-lucide="sparkles"></i> Feito para o seu momento</div>
+      </div>
+      <div class="hero-bottom"><span>01 / 03</span><div class="hero-rule"></div><span>UM NOVO JEITO DE OUVIR</span><span class="scroll-hint">DESLIZE PARA DESCOBRIR ↓</span></div>
+    </section>
+
+    <section class="intro section-wrap" id="sobre"><div class="section-kicker">01 — MAIS DO QUE PLAY</div><div class="intro-content"><h2>Seu gosto não cabe<br>em uma <em>caixinha.</em></h2><div class="intro-aside"><p>O Melodia aprende com cada escolha sua para aproximar você de músicas e artistas que combinam com o seu agora.</p><a href="#recursos" class="round-link" aria-label="Ver recursos"><i data-lucide="arrow-down-right"></i></a></div></div><div class="intro-line"><span>OUÇA DO SEU JEITO</span><div></div><span>ENCONTRE O SEU SOM</span><div></div><span>REPITA À VONTADE</span></div></section>
+
+    <section class="features section-wrap" id="recursos"><div class="section-heading"><div><div class="section-kicker">02 — SUA EXPERIÊNCIA</div><h2>Feito para <em>sentir.</em></h2></div><p>Um espaço que entende o seu ritmo,<br>do primeiro play ao próximo favorito.</p></div>
+      <div class="feature-grid">
+        <a class="feature feature-large" href="recursos.html#som"><div class="feature-top"><span class="feature-number">01</span><i data-lucide="audio-waveform"></i></div><div class="feature-visual equalizer" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><h3>Som em cada detalhe</h3><p>Uma experiência sonora envolvente para ouvir cada camada da sua música favorita.</p><span class="feature-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span></a>
+        <a class="feature feature-playlist" href="recursos.html#playlists"><div class="feature-top"><span class="feature-number">02</span><i data-lucide="list-music"></i></div><div class="mini-playlist"><span class="mini-cover cover-one"><i data-lucide="sun"></i></span><span class="mini-cover cover-two"><i data-lucide="moon"></i></span><span class="mini-cover cover-three"><i data-lucide="cloud-sun"></i></span><span class="mini-cover cover-four"><i data-lucide="radio"></i></span><div class="mini-wave">♫</div></div><h3>Playlists com a sua cara</h3><p>Seu humor muda. Sua trilha acompanha.</p><span class="feature-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span></a>
+        <a class="feature feature-discover" href="recursos.html#descobertas"><div class="feature-top"><span class="feature-number">03</span><i data-lucide="compass"></i></div><div class="discover-art"><div class="discover-disc"><div></div></div><span class="discover-star">✳</span><span class="discover-label">LADO B<br>À VISTA</span></div><h3>O próximo favorito</h3><p>Artistas novos e sons inesperados, além do que você já conhece.</p><span class="feature-arrow" aria-hidden="true"><i data-lucide="arrow-up-right"></i></span></a>
+      </div>
+    </section>
+
+<section class="quote-section" id="vozes"><div class="quote-inner"><div class="section-kicker">03 — QUEM JÁ DEU PLAY</div><div class="quote-mark">“</div><blockquote>Encontrei bandas que parecem ter feito música exatamente para os meus domingos.</blockquote><div class="quote-person"><img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=85" alt="Retrato de Marina Costa"><div><strong>Marina Costa</strong><span>Ouvinte desde 2024</span></div><div class="quote-stars" aria-label="5 de 5 estrelas">★★★★★</div></div><div class="quote-pagination" aria-label="Depoimentos"><button class="active" aria-label="Depoimento 1" aria-pressed="true"></button><button aria-label="Depoimento 2" aria-pressed="false"></button><button aria-label="Depoimento 3" aria-pressed="false"></button><span class="quote-count">01 / 03</span></div></div><div class="quote-photo"><img src="https://images.unsplash.com/photo-1516280440614-37939bbacd81?auto=format&fit=crop&w=1000&q=85" alt="Cantora em um show com luzes roxas"><div class="photo-label">A MÚSICA ENCONTRA VOCÊ</div></div></section>
+
+    <section class="signup section-wrap"><div class="signup-copy"><div class="section-kicker">04 — A PRÓXIMA DESCOBERTA</div><h2>Seu próximo som<br>favorito está <em>por aí.</em></h2><p>Receba novidades, playlists e artistas novos na sua caixa de entrada.</p></div><form class="signup-form"><label for="email">SEU E-MAIL</label><div class="input-row"><input id="email" name="email" type="email" placeholder="voce@exemplo.com" autocomplete="email" required><button type="submit" aria-label="Inscrever e-mail"><i data-lucide="arrow-up-right"></i></button></div><div class="form-message" aria-live="polite">Sem spam. Só música boa, de vez em quando.</div></form><div class="signup-spark">✳</div></section>
+  </main>
+
+  <footer class="footer"><div class="footer-main"><a class="brand" href="#top"><span class="brand-mark"><i data-lucide="audio-lines"></i></span>melodia<span class="brand-dot">.</span></a><span class="footer-note">A vida acontece. A trilha também.</span><div class="social-links"><a href="https://instagram.com" aria-label="Instagram"><i data-lucide="instagram"></i></a><a href="https://youtube.com" aria-label="YouTube"><i data-lucide="youtube"></i></a><a href="https://open.spotify.com" aria-label="Spotify"><i data-lucide="disc-3"></i></a></div></div><div class="footer-bottom"><span>© 2026 MELODIA. TODOS OS DIREITOS RESERVADOS.</span><a href="mailto:oi@melodia.app">oi@melodia.app</a><a href="privacidade.html">POLÍTICA DE PRIVACIDADE</a><a href="#top">VOLTAR AO TOPO ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
+
