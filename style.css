@@ -89,3 +89,42 @@ img,svg{max-width:100%}
 }
 main section#sobre,main section#recursos,main section#vozes{scroll-margin-top:92px}
 
+
+/* Revisão de responsividade: cartões em fluxo normal, capa sem sobreposição e legibilidade no celular. */
+.hero-art{overflow:visible}
+.album-caption{bottom:72px}
+.quote-pagination{gap:0;margin-left:-10px}
+.resources-intro>.text-link{padding-block:8px}
+.quote-pagination button{width:auto;height:auto;padding:10px;background:transparent}
+.quote-pagination button::after{content:"";display:block;width:5px;height:5px;border-radius:99px;background:#bbb7ae;transition:width .2s}
+.quote-pagination button.active{width:auto;background:transparent}
+.quote-pagination button.active::after{width:20px;background:var(--ink)}
+.quote-pagination button:focus-visible{outline:2px solid var(--ink);outline-offset:2px;border-radius:4px}
+.feature{display:flex;flex-direction:column}
+.feature .equalizer,.feature .mini-playlist,.feature .discover-art{position:relative;inset:auto;flex:1 0 auto;margin:18px 0 24px}
+.feature .equalizer{height:145px}
+.feature .mini-playlist{height:130px}
+.feature .discover-art{min-height:170px}
+.feature h3{position:static;margin:auto 0 10px}
+.feature p{position:static;max-width:none;min-height:3.2em;padding-right:0;margin-right:44px}
+@media(max-width:1100px) and (min-width:641px){
+  .feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .feature-large{grid-column:span 2}
+}
+@media(max-width:900px){
+  .menu-toggle{width:44px;height:44px}
+  .hero-art{height:auto;display:flex;flex-direction:column;align-items:center}
+  .album-art{width:min(275px,calc(100% - 16px));height:auto;aspect-ratio:275/350}
+  .album-caption{bottom:62px}
+  .floating-player{position:relative;left:auto;bottom:auto;transform:none;margin-top:-44px;width:min(330px,100%)}
+}
+@media(max-width:640px){
+  .intro h2 br,.signup h2 br,.section-heading>p br{display:none}
+  .hero-bottom,.footer-bottom,.quote-count,.photo-label{font-size:9px}
+  .intro-line{font-size:9px;letter-spacing:1px;gap:10px}
+  .intro-line span{flex:0 1 auto;text-align:center;line-height:1.5}
+  .intro-line div{flex:1 0 12px}
+  .feature{min-height:0}
+  .feature p{min-height:0}
+  .mini-cover{width:clamp(64px,22vw,92px);height:clamp(64px,22vw,92px)}
+}
