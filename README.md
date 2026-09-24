@@ -61,10 +61,10 @@ Abra `index.html` no navegador. A página usa fontes, ícones, imagens e Tailwin
 
 ## Integrantes
 
-- Pedro Viana
-- Lucas Kobayashi
-- Jhonathan Dourado
-- João Matheus
+Pedro Viana 572971
+Lucas Kobayashi 569905
+Jhonathan Dourado 569568
+João Matheus 569850
 
 ## Roteiro para apresentação técnica
 
