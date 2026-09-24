@@ -81,4 +81,11 @@ img,svg{max-width:100%}
 .resource-detail h2{max-width:100%;font-size:clamp(28px,4vw,45px);line-height:1.1;overflow-wrap:anywhere}
 .resource-detail p{max-width:65ch;overflow-wrap:anywhere}
 .resource-symbol{display:none}
+@media(max-width:1100px){
+  .feature-grid{grid-template-columns:minmax(0,1fr)}
+  .feature-large{grid-column:auto;min-height:315px}
+  .hero-art{overflow:hidden}
+  .hero-art .orbit{display:none}
+}
+main section#sobre,main section#recursos,main section#vozes{scroll-margin-top:92px}
 
