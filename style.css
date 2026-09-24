@@ -73,4 +73,12 @@ img,svg{max-width:100%}
   .resource-detail>div:nth-child(2){grid-column:1;min-width:0;width:100%}
   .resource-symbol{display:none}
 }
+/* Os detalhes de recursos são fluidos também em tablets e em páginas com zoom. */
+.resource-list{max-width:1000px;padding-bottom:110px;}
+.resource-header .nav-cta{font-size:11px;padding:10px 12px}
+.resource-detail{display:block;min-width:0;width:100%;max-width:100%;padding:clamp(28px,5vw,45px) 0;overflow-wrap:anywhere}
+.resource-detail>div:nth-child(2){display:block;min-width:0;width:100%}
+.resource-detail h2{max-width:100%;font-size:clamp(28px,4vw,45px);line-height:1.1;overflow-wrap:anywhere}
+.resource-detail p{max-width:65ch;overflow-wrap:anywhere}
+.resource-symbol{display:none}
 
