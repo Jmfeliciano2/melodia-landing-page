@@ -2,6 +2,11 @@
 
 Landing page responsiva para o **Melodia**, um aplicativo fictício de streaming e descoberta musical. O projeto foi desenvolvido para o Check-point 05 de Front-end Design.
 
+## Links
+
+- **Site publicado:** https://jmfeliciano2.github.io/melodia-landing-page/
+- **Repositório:** https://github.com/Jmfeliciano2/melodia-landing-page
+
 ## Sobre o projeto
 
 A página apresenta o Melodia a pessoas que gostam de música e querem descobrir artistas novos. A identidade visual combina fundo escuro, verde-lima, tipografia expressiva e imagens ligadas à experiência musical.
@@ -56,13 +61,10 @@ Abra `index.html` no navegador. A página usa fontes, ícones, imagens e Tailwin
 
 ## Integrantes
 
-Preencha com os nomes do grupo (até cinco pessoas):
-
-- Integrante 1
-- Integrante 2
-- Integrante 3
-- Integrante 4
-- Integrante 5
+- Pedro Viana
+- Lucas Kobayashi
+- Jhonathan Dourado
+- João Matheus
 
 ## Roteiro para apresentação técnica
 
